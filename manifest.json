@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "NCT World",
+    "version": "1.0.0",
+
+    "description": "NCT 사진을 볼 수 있는 네이버 웨일 확장앱입니다.",
+    "icons": {
+    	"16": "images/nct_icon.png",
+   	"48": "images/nct_icon.png",
+   	"128": "images/nct_icon.png"
+    },
+
+    "sidebar_action": {
+        "default_page": "src/sidebar.html",
+        "default_icon": {       
+   	        "16": "images/nct_icon.png",
+   		"48": "images/nct_icon.png",
+   		"128": "images/nct_icon.png"
+        },
+        "default_title": "NCT_world",   
+        "use_navigation_bar": false
+    },
+
+    "background": {
+        "scripts": [],
+        "page": "src/background.html"
+    },
+
+    "content_scripts": [],
+    "permissions": []
+}
