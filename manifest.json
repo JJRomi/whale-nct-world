@@ -11,7 +11,7 @@
     },
 
     "sidebar_action": {
-        "default_page": "src/sidebar.html",
+        "default_page": "https://m.star.naver.com/nct/news/list",
         "default_icon": {       
    	        "16": "images/nct_icon.png",
    		"48": "images/nct_icon.png",
